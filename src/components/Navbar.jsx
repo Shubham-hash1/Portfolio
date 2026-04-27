@@ -27,7 +27,7 @@ const Navbar = () => {
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/80 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
       <div className="max-w-6xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <Link to="hero" smooth={true} duration={500} className="text-xl font-semibold cursor-pointer tracking-tighter">
-          PORTFOLIO.
+          PORTFOLIO
         </Link>
 
         {/* Desktop Nav */}

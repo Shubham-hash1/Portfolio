@@ -3,19 +3,19 @@ import { Award, Star, Zap } from 'lucide-react';
 
 const achievements = [
   {
-    icon: <Award size={24} />,
-    title: 'Best Developer Award 2023',
-    description: 'Awarded for outstanding contribution to the open-source community and innovative UI designs.',
-  },
-  {
-    icon: <Star size={24} />,
-    title: 'Top 1% on Coding Platform',
-    description: 'Consistently ranked among the top problem solvers on algorithmic challenges.',
-  },
-  {
     icon: <Zap size={24} />,
-    title: 'Hackathon Winner',
-    description: 'Led a team to victory in the National Web3 Hackathon by building a decentralized app in 48 hours.',
+    title: '4th position on National Entrepreneurship Challenge',
+    description: 'Top 4 out of 50+ teams across India.',
+  },
+  {
+    icon: <Award size={24} />,
+    title: '2nd postion in panel discussion ',
+    description: 'Secured 2nd position in panel discussion organized by IBM in college campus.',
+  },
+  {
+    icon: <Award size={24} />,
+    title: '3rd postion in Poster Making Competition',
+    description: 'Secured 3rd position in Poster Making Competition by IBM in college campus.',
   }
 ];
 

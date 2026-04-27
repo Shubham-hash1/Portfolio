@@ -13,7 +13,7 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
             className="text-muted text-lg mb-4"
           >
-            Hello, I am
+            Hello, I am <span className="font-semibold text-2xl text-foreground">Shubham</span>.
           </motion.p>
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}

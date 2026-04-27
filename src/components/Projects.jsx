@@ -4,18 +4,12 @@ import { ExternalLink } from 'lucide-react';
 const projects = [
   {
     title: 'Smart India Nutrition (NutriSmart)',
-    description: 'A comprehensive dashboard for managing online stores. Features include real-time sales tracking, inventory management, and intuitive data visualization.',
+    description: 'A website that showcases nutritious foods and their nutritional values based on the users region. Users can alos select their health condition and age group. It also includes a blog section for health and nutrition posts.',
     tech: ['React', 'Tailwind', 'Node.js', 'Postgre SQL', 'Express.js', 'JWT'],
     liveLink: 'https://smart-india-nutrition.vercel.app',
-    githubLink: '#',
+    githubLink: 'https://github.com/Shubham-hash1/Smart-India-Nutrition',
   },
-  {
-    title: 'Portfolio',
-    description: 'A productivity app focused on simplicity. Drag-and-drop functionality, offline mode, and dark theme support.',
-    tech: ['TypeScript', 'Next.js', 'Framer Motion'],
-    liveLink: '#',
-    githubLink: '#',
-  },
+ 
   {
     title: 'Employee Management System',
     description: 'An application that leverages OpenAI API to generate blog posts and marketing copy based on simple prompts.',

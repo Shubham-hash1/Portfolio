@@ -34,12 +34,23 @@ const Contact = () => {
         </div>
 
         <div>
-          <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+          <form 
+            action="https://formsubmit.co/shubnegi1004@gmail.com" 
+            method="POST" 
+            className="space-y-6"
+          >
+            {/* FormSubmit Configuration */}
+            <input type="hidden" name="_subject" value="New Contact Form Submission from Portfolio!" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-400 mb-2">Name</label>
               <input 
                 type="text" 
                 id="name" 
+                name="name"
+                required
                 className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                 placeholder="Your name"
               />
@@ -49,6 +60,8 @@ const Contact = () => {
               <input 
                 type="email" 
                 id="email" 
+                name="email"
+                required
                 className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 transition-colors"
                 placeholder="your@email.com"
               />
@@ -57,6 +70,8 @@ const Contact = () => {
               <label htmlFor="message" className="block text-sm font-medium text-gray-400 mb-2">Message</label>
               <textarea 
                 id="message" 
+                name="message"
+                required
                 rows="4" 
                 className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 transition-colors resize-none"
                 placeholder="Tell me about your project..."
