@@ -1,29 +1,34 @@
 import Section from './Section';
 import { ExternalLink } from 'lucide-react';
+import Nutri from '../images/NutriSmart.png'
+import Resume from '../images/resume.png'
 
 const projects = [
   {
     title: 'Smart India Nutrition (NutriSmart)',
+    image: Nutri,
     description: 'A website that showcases nutritious foods and their nutritional values based on the users region. Users can alos select their health condition and age group. It also includes a blog section for health and nutrition posts.',
     tech: ['React', 'Tailwind', 'Node.js', 'Postgre SQL', 'Express.js', 'JWT'],
     liveLink: 'https://smart-india-nutrition.vercel.app',
     githubLink: 'https://github.com/Shubham-hash1/Smart-India-Nutrition',
   },
  
-  {
-    title: 'Employee Management System',
-    description: 'An application that leverages OpenAI API to generate blog posts and marketing copy based on simple prompts.',
-    tech: ['React', 'Node.js', 'OpenAI API'],
-    liveLink: '#',
-    githubLink: '#',
-  },
-
+  
    {
     title: 'Resume builder',
-    description: 'An application that leverages OpenAI API to generate blog posts and marketing copy based on simple prompts.',
-    tech: ['React', 'Node.js', 'OpenAI API'],
+    image: Resume,
+    description: 'Built with React.js, this project is a dynamic frontend application that allows user to modify every section of thier resume. In real time featuring custom dark mode, it blends high end asthetic with functionality. Users can preview thier changes instantly and download it in just one click',
+    tech: ['React'],
+    liveLink: 'https://resume-builder-two-tan.vercel.app',
+    githubLink: 'https://github.com/Shubham-hash1/Portfolio',
+  },
+
+  {
+    title: 'Employee Management System',
+    description: 'An web application which can use to manage Employees by giving task and thier responsis.',
+    tech: ['React', 'Tailwind'],
     liveLink: '#',
-    githubLink: '#',
+    githubLink: 'https://github.com/Shubham-hash1/Employee-Management-System',
   }
 ];
 
@@ -34,7 +39,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div key={index} className="group relative bg-accent/20 rounded-2xl overflow-hidden border border-gray-100 hover:border-gray-200 transition-colors flex flex-col h-full">
             <div className="h-48 bg-gray-200 w-full relative overflow-hidden">
-              {/* Placeholder for project image */}
+              <img src={project.image} alt="project.title" />
               <div className="absolute inset-0 bg-foreground/5 flex items-center justify-center text-muted group-hover:bg-foreground/10 transition-colors">
                 <span className="font-medium tracking-widest text-sm uppercase">Project Preview</span>
               </div>
