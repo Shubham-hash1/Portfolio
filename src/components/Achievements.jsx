@@ -1,5 +1,5 @@
 import Section from './Section';
-import { Award, Star, Zap } from 'lucide-react';
+import { Award , Zap } from 'lucide-react';
 
 const achievements = [
   {
