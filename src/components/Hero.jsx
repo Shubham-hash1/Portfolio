@@ -29,8 +29,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-muted text-lg max-w-md mb-8 leading-relaxed"
           >
-            I build minimalistic, fast, and scalable digital experiences. 
-            Turning complex problems into beautiful, intuitive interfaces.
+            I build simple, fast, and user-friendly websites. I turn ideas and problems into clean and easy-to-use digital experiences.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
