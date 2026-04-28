@@ -5,7 +5,7 @@ const educationData = [
     degree: 'Master of Computer Application',
     institution: 'Hemwati Nandan Bahuguna Garhwal University',
     year: '2024 - 2026',
-    description: 'Advanced Web Technologies. Graduated with honors.',
+    description: 'Advanced Web Technologies, Data Structures & System Design',
   },
   {
     degree: 'Bachelor of Computer Application',

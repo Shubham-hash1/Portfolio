@@ -8,12 +8,10 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-12">
         <div>
           <p className="text-lg text-muted leading-relaxed mb-6">
-            I am a passionate software developer with a strong focus on creating clean, elegant, and highly performant user interfaces. 
-            My journey in web development started with a curiosity for how things work on the internet, which quickly evolved into a full-blown career.
+            I am a passionate software developer who enjoys building clean, simple, and fast websites. My journey in web development started with curiosity about how websites work, and over time it became my career.
           </p>
           <p className="text-lg text-muted leading-relaxed">
-            When I'm not coding, you can find me exploring minimalistic design trends, reading tech blogs, or sketching new interface ideas. 
-            I believe in writing code that is not only functional but also easy to read and maintain.
+           When I am not coding, I like exploring modern design ideas, reading tech blogs, and learning new skills. I believe in writing code that works well and is easy to understand and maintain.
           </p>
         </div>
         <div>
