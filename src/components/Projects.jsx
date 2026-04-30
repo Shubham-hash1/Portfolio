@@ -2,6 +2,8 @@ import Section from './Section';
 import { ExternalLink } from 'lucide-react';
 import Nutri from '../images/NutriSmart.png'
 import Resume from '../images/resume.png'
+import Manager from '../images/manager.png'
+
 
 const projects = [
   {
@@ -20,11 +22,12 @@ const projects = [
     description: 'Built with React.js, this project is a dynamic frontend application that allows user to modify every section of thier resume. In real time featuring custom dark mode, it blends high end asthetic with functionality. Users can preview thier changes instantly and download it in just one click',
     tech: ['React'],
     liveLink: 'https://resume-builder-two-tan.vercel.app',
-    githubLink: 'https://github.com/Shubham-hash1/Portfolio',
+    githubLink: 'https://github.com/Shubham-hash1/Resume-Builder',
   },
 
   {
     title: 'Employee Management System',
+    image: Manager,
     description: 'An web application which can use to manage Employees by giving task and thier responsis.',
     tech: ['React', 'Tailwind'],
     liveLink: '#',
